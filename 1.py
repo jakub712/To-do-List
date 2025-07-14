@@ -51,7 +51,7 @@ def complete_task():
 
     task_idx = done_index - 1
     data ["tasks"] [task_idx] ["done"] = True
-    print(f"✅ Marked '{data['tasks'][task_idx]['text']}' as done.")
+    print(f" Marked '{data['tasks'][task_idx]['text']}' as done.")
 
     with open("tasks.json", "w") as f:
         json.dump(data, f, indent= 4)
@@ -123,4 +123,3 @@ while True:
     else:
         print(Fore.RED +"Unknown command.")
 
-# make what you wanna do a number
