@@ -1,0 +1,20 @@
+{
+    "tasks": [
+        {
+            "text": "running",
+            "done": true
+        },
+        {
+            "text": "have fun",
+            "done": false
+        },
+        {
+            "text": "study",
+            "done": false
+        },
+        {
+            "text": "python",
+            "done": false
+        }
+    ]
+}
